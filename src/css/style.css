@@ -42,78 +42,103 @@ img {
     object-fit: cover;
 }
 
-section{
-    background-color: var(--clr-white)
+section {
+    background-color: white;
 }
 
 .hero {
-    background-color: var(--clr-extra);
+    background-color: #1c1d25;
     height: 100vh;
-    color: var(--clr-white);
-    font-size: 4rem; 
+    color: white;
+    font-size: 40px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
 }
-.logo {
-    width: 3rem;
-    height: 8rem;
-}
+
 ul {
     display: flex;
     list-style-type: none;
-    width: 50rem;
+    width: 500px;
     justify-content: space-around;
-    font-size: 3rem;
+    font-size: 30px;
 }
+
+li {
+    text-decoration: none;
+}
+
 h1 {
-    font-size: 9rem;
+    font-size: 90px;
     margin: 0;
 }
+
 h2 {
-    font-size: 5rem;
+    font-size: 50px;
 }
+
 p {
     margin: 0;
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: 300;
 }
+
 .subtext {
-    font-size: 1.5rem;
+    font-size: 15px;
     font-weight: 300;
 }
+
 .hero-area {
     display: flex;
-    height: 100%; 
+    height: 100%;
     justify-content: space-between;
     align-items: center;
 }
+
 .hero-text {
-    margin-left: 8rem;
-    margin-bottom: 20rem;
+    margin-left: 80px;
+    margin-bottom: 200px;
 }
+
 .button {
-    width: 20rem;
-    height: 5.5rem;
-    border-radius: 3rem;
-    background-color: var(--clr-complementario);
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
     text-align: center;
-    font-size: 3rem; 
-    padding-top: .5rem;
-    margin-top: 2rem;
+    font-size: 30px;
     font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
     cursor: pointer;
 }
+
+
 .button:hover {
-    background-color: var(--clr-terciario);
+    background-color: #ef744b;
 }
+
 .button:active {
-    background-color: var(--clr-secundario);
-    color: var(--clr-white);
+    background-color: #A9A9A9;
+    color: #808080;
 }
+
 .socials {
-    padding-bottom: 20rem;
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
 }
 .social {
     margin: 20px;
@@ -121,17 +146,8 @@ p {
 
 .sub-section {
     display: flex;
-    justify-content: space-between;
-    padding: 8rem;
-}
-.headshot-container {
- display: flex;
- align-items: center;
-}
-.headshot{
- width: 30rem;
- border-radius: 150px;
- margin-left: 8rem;
+    justify-content: space-around;
+    padding: 80px;
 }
 
 .sub-section-alternative {
@@ -141,18 +157,28 @@ p {
     padding: 80px;
 }
 
-.project-container {
-  display: flex;
-  align-items: center;
-}
-.project-card {
-  width: 300px;
-  height: 500px;
-  margin: 10px;
-  box-shadow: 5px 5px 20px rgb(197, 195, 195);
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 80px;
 }
 
-                  /*MediaQueries*/
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
 
 @media only screen and (max-width: 1000px) {
     .project-container {
@@ -166,41 +192,47 @@ p {
     width: 250px;
     border-radius: 125px;
 }
+
 hr {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .project-link {
     text-decoration: none;
-    color: var(--clr-terciario);
+    color: #ef744b;
 }
+
 a {
     text-decoration: none;
-    color: var(--clr-white);
+    color: white;
 }
+
 .hamburger {
     display: none;
 }
-.hamburger:focus {
+
+.hamburger:focus{
     outline: 0;
 }
 
 
 @media only screen and (max-width: 1000px) {
     .hamburger {
-        display: flex;
+        display: block;
         border: 0;
         background-color: transparent;
-        color: var(--clr-white);
+        color: white;
         font-size: 30px;
         margin: 20px;
         align-self: flex-end;
+        cursor: pointer;
     }
 
     ul {
-        display: none; 
-        background-color: var(--clr-secundario);
-        margin: 0px;
+        display: none;
+        background-color: #2b2c38;
+        margin: 0ppx;
     }
 
     ul.show {
@@ -210,17 +242,10 @@ a {
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: var(--clr-secundario); 
+        background-color: #2b2c38;
     }
+
     .logo {
         display: none;
     }
-
-}
-
-footer {
-    background-color: var(--clr-extra);
-    color: var(--clr-white);
-    text-align: center;
-    padding: 80px;
 }
