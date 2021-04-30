@@ -42,6 +42,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 - --clr-complementarioDos: #BDBFBF; 
 
 # MediaQueries
+## Max-Width:
+- 1000px;
 
 # Images
 [Unsplash](https://unsplash.com/)
@@ -54,6 +56,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [CDN JS](https://cdnjs.com/)
 
 # Tools
+- [Spline 3D](https://spline.design/)
 
 # Markdown Tools
 [MdEditor](https://pandao.github.io/editor.md/en.html)
