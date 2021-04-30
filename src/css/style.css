@@ -1,3 +1,21 @@
+:root {
+    --clr-primario: #020F59; 
+    --clr-secundario: #023373; 
+    --clr-terciario: #03588C; 
+    --clr-complementario: #3C7DA6; 
+    --clr-complementarioDos: #BDBFBF; 
+    --clr-white: #ffffff;
+    --clr-black: #000000;  
+
+    --clr-extra: #1c1d25; 
+
+    --font-size-small: 12px; 
+    --font-size-medium: 16px; 
+    --font-size-tall: 18px; 
+    --font-size-title: 24px; 
+
+
+}
 * {
     margin: 0;
     padding: 0;box-sizing: border-box;
@@ -8,4 +26,44 @@ html {
 
 body {
     font-family: 'Merriweather', serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    object-fit: cover;
+}
+
+section{
+    background-color: var(--clr-white)
+}
+
+.hero {
+    background-color: var(--clr-extra);
+    height: 100vh;
+    color: var(--clr-white);
+    font-size: 4rem; 
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 3rem;
+    height: 8rem;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 50rem;
+    justify-content: space-around;
+    font-size: 3rem;
 }
